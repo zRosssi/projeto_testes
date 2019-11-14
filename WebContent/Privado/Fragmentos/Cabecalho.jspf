@@ -1,0 +1,56 @@
+<!-- Static navbar -->
+<div class="navbar navbar-default" role="navigation">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+			<span class="sr-only"></span> <span class="icon-bar"></span> <span
+				class="icon-bar"></span> <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Projeto Somar</a>
+	</div>
+	<div class="navbar-collapse collapse">
+		<!-- Left nav -->
+		<ul class="nav navbar-nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Cadastros<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="../Estado/EstadoServlet">Estado</a></li>
+					<li><a href="../Cidade/CidadeServlet">Cidade</a></li>
+					<li><a href="../Usuario/UsuarioServlet">Usuários</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header"></li><li><a href="#"><span class="caret"></span></a>
+					
+						<ul class="dropdown-menu">
+							<li><a href="#">Cidade</a></li>
+							<li><a href="#">Estados</a></li>
+							<li><a href="#">Outros <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Outros 1</a></li>
+									<li><a href="#">Outros 2</a></li>
+									<li class="disabled"><a class="disabled" href="#">Outros
+											3 Disabled</a></li>
+									<li><a href="#">Outros 4</a></li>
+								</ul></li>
+							<li><a href="#">Outro menu</a></li>
+						</ul></li>
+				</ul></li>
+		</ul>
+		<!-- Right nav -->
+		<ul class="nav navbar-nav navbar-right">
+				<ul class="dropdown-menu">
+					<li class="divider"></li>
+					<li class="dropdown-header">Mais...</li>
+					<li><a href="#">Dicas <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Dica 1</a></li>
+							<li><a href="#">Dica 2</a></li>
+							<li><a href="#">Dica 3</a></li>
+							<li class="disabled"><a class="disabled" href="#">Dica 4
+									- Disabled</a></li>
+							<li><a href="#">Dica5</a></li>
+						</ul></li>
+					<li><a href="#">Ajuda</a></li>
+				</ul></li>
+		</ul>
+	</div>
+	<!--/.nav-collapse -->
+</div>
